@@ -1,0 +1,51 @@
+
+    <form class="row g-2 conatiner-grz">
+        <div class="col-12">
+            <h1>Agregar Motocicleta</h1>
+        </div>
+
+      <div class="col-6">
+        <label class="">Digite el Modelo</label>
+      </div>
+      <div class="col-6">
+        <input
+          type="text"
+          class="form-control"
+          id="moto-modelo"
+          placeholder="Modelo"
+        />
+      </div>
+      <div class="col-6">
+        <label class="">Digite el año</label>
+      </div>
+      <div class="col-6">
+        <input
+          type="text"
+          class="form-control"
+          id="moto-ano"
+          placeholder="Año"
+        />
+      </div>
+      <div class="col-6">
+        <label class="">Digite la Nombre</label>
+      </div>
+      <div class="col-6">
+        <input
+          type="text"
+          class="form-control"
+          id="moto-nombre"
+          placeholder="Nombre"
+        />
+      </div>
+      <div class="col-12">
+        <button type="button" class="btn btn-primary btn-right" onclick="SaveMoto()">SAVE</button>
+      </div>
+    </form>
+<div class="divider">
+    <div class="divider-color"></div>
+</div>
+<div class="container-users-btn"><button class="btn btn-primary btn-load-data" onclick="RenderInfoMoto()">LOAD</button></div>
+<div class="container-users" id="container-users">
+</div>
+
+

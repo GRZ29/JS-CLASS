@@ -1,0 +1,66 @@
+/* escritorio */
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    position: absolute;
+    right: 20px;
+  }
+}
+
+.conatiner-grz {
+    margin: 10px 20px;
+}
+
+a.nav-link {
+    cursor: pointer;
+}
+
+.btn-right {
+    float: right;
+}
+
+
+form.row.g-3 {
+    margin: 0px !important;
+}
+
+.divider {
+    height: 2px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 20px 0px;
+}
+
+.divider-color {
+    background-color: #ced4da;
+    height: 2px;
+}
+
+.container-users-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-info {
+    margin: 10px;
+    background-color: aliceblue;
+    padding: 5px 5px;
+    border-radius: 20px;
+}
+
+button.btn-delete {
+    border-color: transparent;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    font-size: small;
+}
+
+.container-users-btn {
+    text-align: right;
+    margin-right: 10px;
+}
+
+h1.text-light {
+    cursor: pointer;
+}

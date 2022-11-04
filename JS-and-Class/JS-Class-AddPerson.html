@@ -1,0 +1,61 @@
+
+    <form class="row g-2 conatiner-grz">
+        <div class="col-12">
+            <h1>Agregar Persona</h1>
+        </div>
+
+      <div class="col-6">
+        <label class="">Digite el ID</label>
+      </div>
+      <div class="col-6">
+        <input
+          type="text"
+          class="form-control"
+          id="person-id"
+          placeholder="ID"
+        />
+      </div>
+      <div class="col-6">
+        <label class="">Digite el nombre</label>
+      </div>
+      <div class="col-6">
+        <input
+          type="text"
+          class="form-control"
+          id="person-name"
+          placeholder="Nombre"
+        />
+      </div>
+      <div class="col-6">
+        <label class="">Digite la edad</label>
+      </div>
+      <div class="col-6">
+        <input
+          type="text"
+          class="form-control"
+          id="person-edad"
+          placeholder="Edad"
+        />
+      </div>
+      <div class="col-6">
+        <label class="">Seleccione el estado</label>
+      </div>
+      <div class="col-6">
+        <select class="form-select" aria-label="Default select example" id="person-estado">
+            <option value="Apto">Apto</option>
+            <option value="No-Apto">No-Apto</option>
+            <option value="Pendiente">Pendiente</option>
+          </select>
+      </div>
+      <div class="col-12">
+        <button type="button" class="btn btn-primary btn-right" onclick="SavePerson()">SAVE</button>
+      </div>
+    </form>
+<div class="divider">
+    <div class="divider-color"></div>
+</div>
+<div class="container-users-btn"><button class="btn btn-primary btn-load-data" onclick="RenderInfoPerson()">LOAD</button></div>
+<div class="container-users" id="container-users">
+</div>
+
+
